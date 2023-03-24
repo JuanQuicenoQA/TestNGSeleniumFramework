@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="JQ Suite" parallel="none">
+<suite name="Suite" parallel="none">
     <test name="ChromeTest">
         <parameter name="browserName" value="CHROME"/>
         <classes>
