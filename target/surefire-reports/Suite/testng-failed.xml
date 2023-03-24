@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" verbose="0">
+  <test thread-count="5" name="ChromeTest(failed)" verbose="0">
+    <parameter name="browserName" value="CHROME"/>
+    <classes>
+      <class name="org.selenium.tests.MyFirstTest">
+        <methods>
+          <include name="successfully_Login_into_the_WebApp"/>
+          <include name="startDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- org.selenium.tests.MyFirstTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" name="FirefoxTest(failed)" verbose="0">
+    <parameter name="browserName" value="FIREFOX"/>
+    <classes>
+      <class name="org.selenium.tests.MyFirstTest">
+        <methods>
+          <include name="successfully_Login_into_the_WebApp"/>
+          <include name="startDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- org.selenium.tests.MyFirstTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test thread-count="5" name="EdgeTest(failed)" verbose="0">
+    <parameter name="browserName" value="EDGE"/>
+    <classes>
+      <class name="org.selenium.tests.MyFirstTest">
+        <methods>
+          <include name="successfully_Login_into_the_WebApp"/>
+          <include name="startDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- org.selenium.tests.MyFirstTest -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

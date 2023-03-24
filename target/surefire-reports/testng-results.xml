@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-24T15:28:29 COT" name="JQ Suite" finished-at="2023-03-24T15:29:07 COT" duration-ms="38491">
+    <groups>
+    </groups>
+    <test started-at="2023-03-24T15:28:29 COT" name="ChromeTest" finished-at="2023-03-24T15:28:43 COT" duration-ms="14403">
+      <class name="org.selenium.tests.ApiTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.tests.ApiTest@7c211fd0]" started-at="2023-03-24T15:28:29 COT" name="startDriver" finished-at="2023-03-24T15:28:32 COT" duration-ms="3413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="get_Cookies_From_Browser()[pri:0, instance:org.selenium.tests.ApiTest@7c211fd0]" started-at="2023-03-24T15:28:33 COT" name="get_Cookies_From_Browser" description="Should be able to get Browser cookies" finished-at="2023-03-24T15:28:37 COT" duration-ms="4615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Cookies_From_Browser -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.tests.ApiTest@7c211fd0]" started-at="2023-03-24T15:28:37 COT" name="quitDriver" finished-at="2023-03-24T15:28:37 COT" duration-ms="163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=get_Cookies_From_Browser status=SUCCESS method=ApiTest.get_Cookies_From_Browser()[pri:0, instance:org.selenium.tests.ApiTest@7c211fd0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.selenium.tests.ApiTest -->
+      <class name="org.selenium.tests.LoginTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.tests.LoginTest@25b865b5]" started-at="2023-03-24T15:28:37 COT" name="startDriver" finished-at="2023-03-24T15:28:39 COT" duration-ms="1834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="failed_Login_into_the_WebApp()[pri:0, instance:org.selenium.tests.LoginTest@25b865b5]" started-at="2023-03-24T15:28:39 COT" name="failed_Login_into_the_WebApp" description="Should NOT be able to Login to the App" finished-at="2023-03-24T15:28:40 COT" duration-ms="1217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failed_Login_into_the_WebApp -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.tests.LoginTest@25b865b5]" started-at="2023-03-24T15:28:40 COT" name="quitDriver" finished-at="2023-03-24T15:28:40 COT" duration-ms="118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=failed_Login_into_the_WebApp status=SUCCESS method=LoginTest.failed_Login_into_the_WebApp()[pri:0, instance:org.selenium.tests.LoginTest@25b865b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.tests.LoginTest@25b865b5]" started-at="2023-03-24T15:28:40 COT" name="startDriver" finished-at="2023-03-24T15:28:42 COT" duration-ms="1767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="successfully_Login_into_the_WebApp()[pri:0, instance:org.selenium.tests.LoginTest@25b865b5]" started-at="2023-03-24T15:28:42 COT" name="successfully_Login_into_the_WebApp" description="Should be able to Login to the App" finished-at="2023-03-24T15:28:43 COT" duration-ms="1020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfully_Login_into_the_WebApp -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.tests.LoginTest@25b865b5]" started-at="2023-03-24T15:28:43 COT" name="quitDriver" finished-at="2023-03-24T15:28:43 COT" duration-ms="106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=successfully_Login_into_the_WebApp status=SUCCESS method=LoginTest.successfully_Login_into_the_WebApp()[pri:0, instance:org.selenium.tests.LoginTest@25b865b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.selenium.tests.LoginTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-03-24T15:28:43 COT" name="FirefoxTest" finished-at="2023-03-24T15:28:58 COT" duration-ms="14467">
+      <class name="org.selenium.tests.ApiTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.tests.ApiTest@4fcc0416]" started-at="2023-03-24T15:28:43 COT" name="startDriver" finished-at="2023-03-24T15:28:47 COT" duration-ms="3176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="get_Cookies_From_Browser()[pri:0, instance:org.selenium.tests.ApiTest@4fcc0416]" started-at="2023-03-24T15:28:47 COT" name="get_Cookies_From_Browser" description="Should be able to get Browser cookies" finished-at="2023-03-24T15:28:48 COT" duration-ms="1290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Cookies_From_Browser -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.tests.ApiTest@4fcc0416]" started-at="2023-03-24T15:28:48 COT" name="quitDriver" finished-at="2023-03-24T15:28:48 COT" duration-ms="565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=get_Cookies_From_Browser status=SUCCESS method=ApiTest.get_Cookies_From_Browser()[pri:0, instance:org.selenium.tests.ApiTest@4fcc0416] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.selenium.tests.ApiTest -->
+      <class name="org.selenium.tests.LoginTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.tests.LoginTest@31e32ea2]" started-at="2023-03-24T15:28:48 COT" name="startDriver" finished-at="2023-03-24T15:28:51 COT" duration-ms="2829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="failed_Login_into_the_WebApp()[pri:0, instance:org.selenium.tests.LoginTest@31e32ea2]" started-at="2023-03-24T15:28:51 COT" name="failed_Login_into_the_WebApp" description="Should NOT be able to Login to the App" finished-at="2023-03-24T15:28:53 COT" duration-ms="1398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failed_Login_into_the_WebApp -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.tests.LoginTest@31e32ea2]" started-at="2023-03-24T15:28:53 COT" name="quitDriver" finished-at="2023-03-24T15:28:53 COT" duration-ms="575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=failed_Login_into_the_WebApp status=SUCCESS method=LoginTest.failed_Login_into_the_WebApp()[pri:0, instance:org.selenium.tests.LoginTest@31e32ea2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.tests.LoginTest@31e32ea2]" started-at="2023-03-24T15:28:53 COT" name="startDriver" finished-at="2023-03-24T15:28:56 COT" duration-ms="2838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="successfully_Login_into_the_WebApp()[pri:0, instance:org.selenium.tests.LoginTest@31e32ea2]" started-at="2023-03-24T15:28:56 COT" name="successfully_Login_into_the_WebApp" description="Should be able to Login to the App" finished-at="2023-03-24T15:28:57 COT" duration-ms="1209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfully_Login_into_the_WebApp -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.tests.LoginTest@31e32ea2]" started-at="2023-03-24T15:28:57 COT" name="quitDriver" finished-at="2023-03-24T15:28:58 COT" duration-ms="576" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=successfully_Login_into_the_WebApp status=SUCCESS method=LoginTest.successfully_Login_into_the_WebApp()[pri:0, instance:org.selenium.tests.LoginTest@31e32ea2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.selenium.tests.LoginTest -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2023-03-24T15:28:58 COT" name="EdgeTest" finished-at="2023-03-24T15:29:07 COT" duration-ms="9601">
+      <class name="org.selenium.tests.ApiTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.tests.ApiTest@749f539e]" started-at="2023-03-24T15:28:58 COT" name="startDriver" finished-at="2023-03-24T15:29:00 COT" duration-ms="2391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="get_Cookies_From_Browser()[pri:0, instance:org.selenium.tests.ApiTest@749f539e]" started-at="2023-03-24T15:29:00 COT" name="get_Cookies_From_Browser" description="Should be able to get Browser cookies" finished-at="2023-03-24T15:29:01 COT" duration-ms="1219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Cookies_From_Browser -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.tests.ApiTest@749f539e]" started-at="2023-03-24T15:29:01 COT" name="quitDriver" finished-at="2023-03-24T15:29:02 COT" duration-ms="174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=get_Cookies_From_Browser status=SUCCESS method=ApiTest.get_Cookies_From_Browser()[pri:0, instance:org.selenium.tests.ApiTest@749f539e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.selenium.tests.ApiTest -->
+      <class name="org.selenium.tests.LoginTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.tests.LoginTest@5ca1f591]" started-at="2023-03-24T15:29:02 COT" name="startDriver" finished-at="2023-03-24T15:29:03 COT" duration-ms="1674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="failed_Login_into_the_WebApp()[pri:0, instance:org.selenium.tests.LoginTest@5ca1f591]" started-at="2023-03-24T15:29:03 COT" name="failed_Login_into_the_WebApp" description="Should NOT be able to Login to the App" finished-at="2023-03-24T15:29:04 COT" duration-ms="1043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failed_Login_into_the_WebApp -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.tests.LoginTest@5ca1f591]" started-at="2023-03-24T15:29:04 COT" name="quitDriver" finished-at="2023-03-24T15:29:05 COT" duration-ms="176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=failed_Login_into_the_WebApp status=SUCCESS method=LoginTest.failed_Login_into_the_WebApp()[pri:0, instance:org.selenium.tests.LoginTest@5ca1f591] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.tests.LoginTest@5ca1f591]" started-at="2023-03-24T15:29:05 COT" name="startDriver" finished-at="2023-03-24T15:29:06 COT" duration-ms="1672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="successfully_Login_into_the_WebApp()[pri:0, instance:org.selenium.tests.LoginTest@5ca1f591]" started-at="2023-03-24T15:29:06 COT" name="successfully_Login_into_the_WebApp" description="Should be able to Login to the App" finished-at="2023-03-24T15:29:07 COT" duration-ms="1082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfully_Login_into_the_WebApp -->
+        <test-method is-config="true" signature="quitDriver(java.lang.String,org.testng.ITestResult)[pri:0, instance:org.selenium.tests.LoginTest@5ca1f591]" started-at="2023-03-24T15:29:07 COT" name="quitDriver" finished-at="2023-03-24T15:29:07 COT" duration-ms="160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=successfully_Login_into_the_WebApp status=SUCCESS method=LoginTest.successfully_Login_into_the_WebApp()[pri:0, instance:org.selenium.tests.LoginTest@5ca1f591] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.selenium.tests.LoginTest -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- JQ Suite -->
+</testng-results>

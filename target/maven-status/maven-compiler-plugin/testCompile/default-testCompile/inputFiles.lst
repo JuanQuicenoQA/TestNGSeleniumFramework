@@ -1,0 +1,15 @@
+/Users/juanquiceno/IdeaProjects/TestNGSeleniumFramework/src/test/java/org/selenium/tests/ApiTest.java
+/Users/juanquiceno/IdeaProjects/TestNGSeleniumFramework/src/test/java/org/selenium/factory/DriverManager.java
+/Users/juanquiceno/IdeaProjects/TestNGSeleniumFramework/src/test/java/org/selenium/utils/CookieUtils.java
+/Users/juanquiceno/IdeaProjects/TestNGSeleniumFramework/src/test/java/org/selenium/api/actions/SignUpApi.java
+/Users/juanquiceno/IdeaProjects/TestNGSeleniumFramework/src/test/java/org/selenium/constants/Browsers.java
+/Users/juanquiceno/IdeaProjects/TestNGSeleniumFramework/src/test/java/org/selenium/pom/pages/ProductsPage.java
+/Users/juanquiceno/IdeaProjects/TestNGSeleniumFramework/src/test/java/org/selenium/constants/EnvType.java
+/Users/juanquiceno/IdeaProjects/TestNGSeleniumFramework/src/test/java/org/selenium/utils/PropertyUtils.java
+/Users/juanquiceno/IdeaProjects/TestNGSeleniumFramework/src/test/java/org/selenium/utils/ConfigLoader.java
+/Users/juanquiceno/IdeaProjects/TestNGSeleniumFramework/src/test/java/org/selenium/utils/FakerUtils.java
+/Users/juanquiceno/IdeaProjects/TestNGSeleniumFramework/src/test/java/org/selenium/pom/base/BaseTest.java
+/Users/juanquiceno/IdeaProjects/TestNGSeleniumFramework/src/test/java/org/selenium/tests/LoginTest.java
+/Users/juanquiceno/IdeaProjects/TestNGSeleniumFramework/src/test/java/org/selenium/pom/base/BasePage.java
+/Users/juanquiceno/IdeaProjects/TestNGSeleniumFramework/src/test/java/org/selenium/pom/pages/LoginPage.java
+/Users/juanquiceno/IdeaProjects/TestNGSeleniumFramework/src/test/java/org/selenium/constants/EndPoints.java
