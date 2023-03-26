@@ -22,6 +22,6 @@ public class AllureListener implements ITestListener {
     @Override
     public void onTestFailure(ITestResult result){
         saveScreenshotPNG();
-        saveTextLog(result.getMethod().getConstructorOrMethod().getName() + "Failed scenario screenshot");
+        saveTextLog(result.getMethod().getConstructorOrMethod().getName() + " Failed scenario screenshot");
     }
 }
