@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Suite" parallel="none">
+    <listeners>
+        <listener class-name="org.selenium.utils.AllureListener"/>
+    </listeners>
     <test name="ChromeTest">
         <parameter name="browserName" value="CHROME"/>
         <classes>

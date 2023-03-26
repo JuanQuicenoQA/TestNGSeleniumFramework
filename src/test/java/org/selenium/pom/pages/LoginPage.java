@@ -1,5 +1,6 @@
 package org.selenium.pom.pages;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -19,6 +20,7 @@ public class LoginPage extends BasePage {
     @FindBy(how = How.XPATH , using = "//h3[@data-test='error']") private static WebElement loginErrorMessage;
     private static final By overlay = By.cssSelector("Put here the overlay css");
 
+    @Step("User input expected UserName")
     public static void setUserName(){
         shortWait.until(ExpectedConditions.visibilityOf(userNameField)).clear();
         userNameField.sendKeys("standard_user");
