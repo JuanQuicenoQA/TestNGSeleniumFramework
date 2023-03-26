@@ -16,7 +16,8 @@ public class ApiTest extends BaseTest {
     @Test(description = "Should be able to get Browser cookies")
     public void get_Cookies_From_Browser() throws InterruptedException {
         String BrowserCookies = new SignUpApi().fetchRegisterNonceValueUsingGroovy();
+        int BrowserCookiesLength = BrowserCookies.length();
         Assert.assertNotNull(BrowserCookies);
-        Assert.assertEquals(BrowserCookies,"47306a5cfe");
+        Assert.assertEquals(BrowserCookiesLength,10);
     }
 }
